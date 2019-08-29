@@ -1,33 +1,40 @@
-.App {
+
+.nav__cover {
+  background-color: palevioletred;
+  color: #ffffff;
+  padding-left: 1rem;
+  font-display: 'Open-sans', sans-serif;
+}
+.fab fa-github {
+  width: 2px !important;
+  height: 2px !important
+}
+.user__image {
+  border-radius: 50%;
   text-align: center;
+  padding: 0.5rem;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.user__card {
+  border: 1px solid #eee;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 6rem;
+  /* background-color: gainsboro; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.user__cover {
+  background-color: gray;
+  padding: 0.5rem;
+  border: none;
+  width: 40px;
+  margin: 0 auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.user__link {
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  margin: 0 auto;
+  padding: 1rem 14rem;
 }
