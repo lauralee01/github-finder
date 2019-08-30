@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const UserItem = ({ user: {login, avatar_url, html_url} }) => {
     return (
-        <div className="user__card">
+        <div className="user__coverage">
+             <div className="user__card">
             <img 
                 src={avatar_url} 
                 alt="" 
@@ -12,11 +14,13 @@ const UserItem = ({ user: {login, avatar_url, html_url} }) => {
             />
             <h3>{login}</h3>
             <div className="user__cover">
-                <a href={html_url} className="user__link">
+                <Link to={`/user/${login}`} className="user__link" >
                     More
-                </a>
+                </Link>
+            </div>
             </div>
         </div>
+       
     )
    
 }

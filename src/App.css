@@ -18,7 +18,7 @@
   border: 1px solid #eee;
   margin: 0 auto;
   text-align: center;
-  padding: 1rem 6rem;
+  padding: 1rem 5rem;
   /* background-color: gainsboro; */
 }
 .user__cover {
@@ -37,4 +37,38 @@
 .container {
   margin: 0 auto;
   padding: 1rem 14rem;
+}
+.form__input {
+  width: 100%;
+  display: block;
+  padding: 0.5rem;
+}
+.form__search {
+  width: 100%;
+  display: block;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+.user__coverage {
+  text-align: center;
+  margin: 0 auto;
+}
+.form__btn {
+  width: 100%;
+  display: block;
+  padding: 0.5rem;
+  background-color: #eee;
+  border: none;
+}
+.form__back {
+  background: gray;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px; 
+  margin-bottom: 1rem;
 }
