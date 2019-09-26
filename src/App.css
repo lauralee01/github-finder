@@ -4,6 +4,23 @@
   color: #ffffff;
   padding-left: 1rem;
   font-display: 'Open-sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__container {
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  list-style: none;
+ 
+}
+.nav__text {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav__link {
+
 }
 .fab fa-github {
   width: 2px !important;
@@ -33,6 +50,9 @@
 .user__link {
   text-decoration: none;
   color: white;
+}
+.form {
+  width: 100%;
 }
 .container {
   margin: 0 auto;
